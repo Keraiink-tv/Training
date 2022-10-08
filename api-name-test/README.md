@@ -5,7 +5,6 @@ ______________________________________________________________________
 - AN API SHALL ALWAYS ECHO ONLY ONCE
 - API SHOULD ONLY SHOW I JSON AND NOT RETURN TEXT OR HTML
 ______________________________________________________________________
--->
 
 <!-- STEP 1 -->
 <!-- Start up thunderklient and link it to the right document -->
