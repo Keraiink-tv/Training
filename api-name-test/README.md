@@ -59,7 +59,14 @@ it should show this at the moment.
 -->
 
 <!-- STEP 6 -->
-<!-- You want to do something close to what you had done before, but add the fieldname so you can change the name in the thunderklient.
+<!-- 
+You want to do something close to what you had done before, but add the fieldname "first_name" so you can change the name in the thunderklient to whatever name you wish.
+
+REMEMBER TO CHECK IF THE METHOD IS EITHER A GET OR POST ON THUNDERKLIENT
+If it is some information, that is sensitive you want it to be a GET methode.
+In this case, you can just use a POST methode.
+
+
 
 
 
