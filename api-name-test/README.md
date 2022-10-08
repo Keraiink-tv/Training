@@ -1,4 +1,4 @@
-<!-- IMPORTANT THINGS TO KNOW
+ IMPORTANT THINGS TO KNOW
 ______________________________________________________________________
 - API MUST ALWAYS BE VALIDATED
 - IF THERE IS A SUCESS THERE SHOULD ALWAYS BE A 200 IF NOT A 400 ERROR
