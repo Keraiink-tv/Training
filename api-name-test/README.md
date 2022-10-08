@@ -66,8 +66,8 @@ REMEMBER TO CHECK IF THE METHOD IS EITHER A GET OR POST ON THUNDERKLIENT
 If it is some information, that is sensitive you want it to be a GET methode.
 In this case, you can just use a POST methode.
 
-
-
-
-
+Also a reminder: the reason you echo is because you want to print a variable in json_encode
+(in this case it's the $response)
 -->
+
+<!-- Remember to make sure the MAMP is connected to the right folder, or it won't work -->
