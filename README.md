@@ -6,7 +6,8 @@ Below is some of the questions that i failed to answer, and will now study more 
 Don't give up Monica, you can do it way better.
 
 Question 1:
-In the thunderklient, insert your name.
+In the thunderklient, insert your name. 
+(UPDATE: MADE THE TRAINING - the folder is called api-name-training).
 
 Question 2:
 Make a loop.
