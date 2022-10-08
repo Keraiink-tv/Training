@@ -7,7 +7,7 @@ Don't give up Monica, you can do it way better.
 
 Question 1:
 In the thunderklient, insert your name. 
-(UPDATE: MADE THE TRAINING - the folder is called api-name-training)
+(UPDATE: MADE THE TRAINING - the folder is called api-name-training).
 
 Question 2:
 Make a loop.
