@@ -48,10 +48,10 @@ You echo json_encode at last or it wont show in the thunderklient.
 The reason you use json_encode is because you want it to return the text, with eitehr a suceccful or error json encoded string. 
 
 If there is a sucess it will show the text info with the name you want.
-it should show this at the moment.
+it should show this if there is a sucess:
 
 {
-    'info': Monica
+    'info': "Monica"
 }
 
 ?>
@@ -67,6 +67,15 @@ In this case, you can just use a POST methode.
 
 Also a reminder: the reason you echo is because you want to print a variable in json_encode
 (in this case it's the $response)
+
+<?php
+
+//SUCCESS
+$response = ['info' => "{$_POST['first_name']}"];
+echo json_encode($response);
+
+?>
+
 -->
 
 <!-- Remember to make sure the MAMP is connected to the right folder, or it won't work -->
