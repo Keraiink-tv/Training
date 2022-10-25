@@ -1,6 +1,4 @@
 <?php
 
-for ($x = 0; $x <= 1; $x++){
-    echo "Hej";
-}
-
+$user = ['info' => "{$_POST['first_name']}"];
+echo json_encode($user);
