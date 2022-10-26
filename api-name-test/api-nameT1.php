@@ -6,12 +6,12 @@
 // First I create the user and gives it a "field name" as a a example 'first_name' 
 // And then give it a value of any name you want. Which means you created the first key to your array.
 
-$user = [
-    'first_name' => 'Monica',
-    'last_name' => 'Jensen',
-    'message' => 'Welcome'
-];
-echo "{$user['message']}, {$user['first_name']} {$user['last_name']}";
+// $user = [
+//     'first_name' => 'Monica',
+//     'last_name' => 'Jensen',
+//     'message' => 'Welcome'
+// ];
+// echo "{$user['message']}, {$user['first_name']} {$user['last_name']}";
 
 // If sucess
 // You will get a message that says: Welcome, Monica Jensen
@@ -20,11 +20,11 @@ echo "{$user['message']}, {$user['first_name']} {$user['last_name']}";
 
 // [IMPORTANT!!] I would simply write: 
 $user = [
-    'first_name' => 'Monica',
+    'first_name' => ['Monica'],
     'last_name' => 'Jensen',
     'message' => 'Welcome'
 ];
-echo $user['first_name']; 
+echo $user; 
 
 // if success - Then in the client, it would only show the name.
 
@@ -34,8 +34,8 @@ echo $user['first_name'];
 // Which is the same way, and you can always add the other names by adding like this:
 // echo $user[0]." ".$user[1]." ".$user[2];
 
-$user = array("Monica","Somera","Jensen");
-echo $user[0];
+// $user = array("Monica","Somera","Jensen");
+// echo $user[0];
 
 // If there is a success it will show the name.
 
