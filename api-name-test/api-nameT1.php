@@ -20,11 +20,11 @@
 
 // [IMPORTANT!!] I would simply write: 
 $user = [
-    'first_name' => ['Monica'],
+    'first_name' => 'Monica',
     'last_name' => 'Jensen',
     'message' => 'Welcome'
 ];
-echo $user; 
+echo json_encode($user); 
 
 // if success - Then in the client, it would only show the name.
 
